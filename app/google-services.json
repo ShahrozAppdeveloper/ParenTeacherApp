@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "800663102241",
+    "firebase_url": "https://wallpaperappjava-default-rtdb.firebaseio.com",
+    "project_id": "wallpaperappjava",
+    "storage_bucket": "wallpaperappjava.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800663102241:android:30d7de8459cfdc57a35460",
+        "android_client_info": {
+          "package_name": "com.example.parentteacherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800663102241-gr1m9tmc6jco8s5kgushn8081da2fel5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parentteacherapp",
+            "certificate_hash": "2359fd478a159b057f2650d0237a9736d3fd3384"
+          }
+        },
+        {
+          "client_id": "800663102241-5aofsumkf765trearvtgcevdm22ntugh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_9fVvGghfEI-ChGsxK-wJh_ffCcNDIwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800663102241-5aofsumkf765trearvtgcevdm22ntugh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

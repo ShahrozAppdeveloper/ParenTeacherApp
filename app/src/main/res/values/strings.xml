@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ParentTeacherApp</string>
+    <string name="bold_right_adress">The Right Address\n for Shopping\n Anyday</string>
+    <string name="spinner">Select</string>
+    <string name="best_quality_products"> It provides a user-friendly platform for parents and teachers \n to stay connected, share information, and support the \n educational journey of students.</string>
+    <string name="default_web_client_id" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

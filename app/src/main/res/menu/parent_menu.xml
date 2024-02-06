@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Update Profile"
+        android:id="@+id/updateuserpro"
+        ></item>
+    <item android:title="List of Teacher"
+        android:id="@+id/lisTofTeacher"
+        ></item>
+    <item android:title="Teachers"
+        android:id="@+id/TeachersID"
+        ></item>
+    <item android:title="View Events"
+        android:id="@+id/viewEventsmenuID"
+       ></item>
+    <item android:title="View Absent Notification"
+        android:id="@+id/viewAbsentNotificationmenuID"
+        ></item>
+    <item android:title="Chat with Teachers"
+        android:id="@+id/chatwithTeachers"
+        ></item>
+    <item android:title="Sign out"
+        android:id="@+id/signout"
+        ></item>
+</menu>
