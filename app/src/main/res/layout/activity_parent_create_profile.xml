@@ -20,6 +20,7 @@
             android:text="Create Your Profile"
             android:textColor="@color/green_color"
             android:textSize="22sp"
+            android:fontFamily="@font/protestriot_regular"
             android:textStyle="bold"
             android:layout_marginBottom="20dp"
             app:layout_constraintBottom_toTopOf="@+id/cardView"
@@ -42,6 +43,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/white"
                 android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -70,6 +72,9 @@
                         android:hint="Enter Name"
                         android:inputType="text"
                         android:maxLines="1"
+                        android:drawableLeft="@drawable/baseline_email_24"
+                        android:textColorHint="@color/black"
+                        android:fontFamily="@font/protestriot_regular"
                         android:paddingStart="10dp"
                         android:paddingEnd="20dp"
                         android:textSize="20dp" />
@@ -92,7 +97,11 @@
                         android:layout_height="55dp"
                         android:background="@drawable/background"
                         android:drawablePadding="10dp"
+                        android:textColor="@color/black"
                         android:hint="Enter Roll no "
+                        android:drawableLeft="@drawable/baseline_email_24"
+                        android:textColorHint="@color/black"
+                        android:fontFamily="@font/protestriot_regular"
                         android:inputType="text"
                         android:maxLines="1"
                         android:paddingStart="10dp"
@@ -112,11 +121,15 @@
                         android:id="@+id/edsubjectid"
                         android:layout_width="match_parent"
                         android:layout_height="55dp"
+                        android:textColorHint="@color/black"
                         android:background="@drawable/background"
                         android:drawablePadding="10dp"
                         android:hint="Enter Subject name"
                         android:inputType="text"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/protestriot_regular"
                         android:maxLines="1"
+                        android:drawableLeft="@drawable/baseline_email_24"
                         android:paddingStart="10dp"
                         android:paddingEnd="20dp"
                         android:textSize="20dp" />

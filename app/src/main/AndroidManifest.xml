@@ -29,7 +29,13 @@
             android:exported="false" />
         <activity
             android:name=".ParentModule.ParentCreateProfileActivity"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".eTeacherModule.CreateTeacherProfileActivity"
             android:exported="false" />
@@ -54,11 +60,7 @@
         <activity
             android:name=".Activity.SpLashScreenActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"

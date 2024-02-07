@@ -1,45 +1,27 @@
 {
   "project_info": {
-    "project_number": "800663102241",
-    "firebase_url": "https://wallpaperappjava-default-rtdb.firebaseio.com",
-    "project_id": "wallpaperappjava",
-    "storage_bucket": "wallpaperappjava.appspot.com"
+    "project_number": "190916369605",
+    "firebase_url": "https://parentteacherapp-bc1e2-default-rtdb.firebaseio.com",
+    "project_id": "parentteacherapp-bc1e2",
+    "storage_bucket": "parentteacherapp-bc1e2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:800663102241:android:30d7de8459cfdc57a35460",
+        "mobilesdk_app_id": "1:190916369605:android:3b3fdcadf6a98bfdc464ac",
         "android_client_info": {
           "package_name": "com.example.parentteacherapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "800663102241-gr1m9tmc6jco8s5kgushn8081da2fel5.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.parentteacherapp",
-            "certificate_hash": "2359fd478a159b057f2650d0237a9736d3fd3384"
-          }
-        },
-        {
-          "client_id": "800663102241-5aofsumkf765trearvtgcevdm22ntugh.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA_9fVvGghfEI-ChGsxK-wJh_ffCcNDIwY"
+          "current_key": "AIzaSyCsQvsW-2A-6oAjt-AFJ-6Vr3baRJ8TsNA"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "800663102241-5aofsumkf765trearvtgcevdm22ntugh.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
