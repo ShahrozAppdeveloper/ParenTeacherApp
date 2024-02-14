@@ -210,28 +210,28 @@ public class ParentCreateProfileActivity extends AppCompatActivity {
         }
 
     }
-    @Override
-    protected void onStart() {
-        super.onStart();
-        FirebaseUser user=FirebaseAuth.getInstance().getCurrentUser();
-        String currentUsers=user.getUid().toString();
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference profilesRef = database.getReference("ParentProfile");
-        profilesRef.child(currentUsers).addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (dataSnapshot.exists()) {
-                    startActivity(new Intent(ParentCreateProfileActivity.this,ParentDasboardActivity.class));
-                } else {
-
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                // An error occurred while querying the database
-                Toast.makeText(ParentCreateProfileActivity.this, ""+databaseError.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
+//    @Override
+//    protected void onStart() {
+//        super.onStart();
+//        FirebaseUser user=FirebaseAuth.getInstance().getCurrentUser();
+//        String currentUsers=user.getUid().toString();
+//        FirebaseDatabase database = FirebaseDatabase.getInstance();
+//        DatabaseReference profilesRef = database.getReference("ParentProfile");
+//        profilesRef.child(currentUsers).addListenerForSingleValueEvent(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                if (dataSnapshot.exists()) {
+//                    startActivity(new Intent(ParentCreateProfileActivity.this,ParentDasboardActivity.class));
+//                } else {
+//
+//                }
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError databaseError) {
+//                // An error occurred while querying the database
+//                Toast.makeText(ParentCreateProfileActivity.this, ""+databaseError.getMessage(), Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//    }
 }
