@@ -6,5 +6,24 @@
     </style>
 
     <style name="Theme.ParentTeacherApp" parent="Base.Theme.ParentTeacherApp" />
+    <style name="CalenderViewCustom" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+    </style>
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/protestriot_regular</item>
+        <item name="android:weekNumberColor">@color/white</item>
+    </style>
 
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="toolbarCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+
+    </style>
 </resources>
