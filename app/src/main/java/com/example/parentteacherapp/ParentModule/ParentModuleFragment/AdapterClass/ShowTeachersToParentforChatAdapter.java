@@ -8,17 +8,16 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.parentteacherapp.ParentModule.ParentModuleFragment.AdapterClass.ModelClass.AssignmentModelCass;
 import com.example.parentteacherapp.ParentModule.ParentModuleFragment.AdapterClass.ModelClass.ShowTeacherDetails;
 import com.example.parentteacherapp.R;
 
 import java.util.ArrayList;
 
-public class TeachersToParentAdapter extends RecyclerView.Adapter<TeachersToParentAdapter.Viewholder> {
+public class ShowTeachersToParentforChatAdapter extends RecyclerView.Adapter<ShowTeachersToParentforChatAdapter.Viewholder> {
     ArrayList<ShowTeacherDetails> datalist;
     Context context;
 
-    public TeachersToParentAdapter(ArrayList<ShowTeacherDetails> datalist, Context context) {
+    public ShowTeachersToParentforChatAdapter(ArrayList<ShowTeacherDetails> datalist, Context context) {
         this.datalist = datalist;
         this.context = context;
     }
@@ -35,7 +34,7 @@ public class TeachersToParentAdapter extends RecyclerView.Adapter<TeachersToPare
 
         View photoView
                 = inflater
-                .inflate(R.layout.rvlayoutteacherdetailstouser,
+                .inflate(R.layout.rvshowteacherforchat,
                         parent, false);
 
        return  new Viewholder(photoView);

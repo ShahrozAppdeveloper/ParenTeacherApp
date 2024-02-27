@@ -20,4 +20,10 @@
 
     <color name="hint_color">#C4C4C4</color>
     <color name="edit_txt_bg">#F5F8FA</color>
+    <color name="cardone">#3A0375</color>
+    <color name="cardtwo">#4973B7</color>
+    <color name="cardthree">#A4EAF9</color>
+    <color name="cardfour">#F4A692</color>
+    <color name="gray">#DFDFDF</color>
+
 </resources>

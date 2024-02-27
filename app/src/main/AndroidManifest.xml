@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ParentTeacherApp"
         tools:targetApi="31">
         <activity
+            android:name=".ParentModule.ChatParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParentModule.ParentChatActivity"
+            android:exported="false" />
+        <activity
             android:name=".AdminModule.ListofTeacherToAdmin"
             android:exported="false" />
         <activity
@@ -35,9 +41,7 @@
             android:exported="false" />
         <activity
             android:name=".ParentModule.ParentCreateProfileActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".eTeacherModule.CreateTeacherProfileActivity"
             android:exported="false" />
@@ -61,14 +65,10 @@
             android:exported="true" />
         <activity
             android:name=".Activity.SpLashScreenActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
