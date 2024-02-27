@@ -1,4 +1,4 @@
-package com.example.parentteacherapp.ParentModule;
+package com.example.parentteacherapp.TeacherModule;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.parentteacherapp.R;
 
-public class ParentChatActivity extends AppCompatActivity {
+public class TeacherDashboardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parent_chat);
+        setContentView(R.layout.activity_teacher_dashboard);
     }
 }

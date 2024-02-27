@@ -1,4 +1,4 @@
-package com.example.parentteacherapp.eTeacherModule;
+package com.example.parentteacherapp.TeacherModule;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
