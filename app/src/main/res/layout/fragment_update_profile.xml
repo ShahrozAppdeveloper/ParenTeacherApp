@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ParentModule.ParentModuleFragment.UpdateProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Update Your Profile"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView16"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/man"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Upload Profile Picture"
+                    android:textColor="@color/green_color"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+                    app:layout_constraintStart_toStartOf="@+id/circleImageView"
+                    app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/edit_txt_bg"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="3dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView17"
+                    app:layout_constraintStart_toStartOf="@+id/textView17"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17">
+
+                    <EditText
+                        android:id="@+id/edfirstnameid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/person"
+                        android:drawablePadding="5dp"
+                        android:hint="Username"
+                        android:padding="12dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_color" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/edit_txt_bg"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="3dp"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView10"
+                    app:layout_constraintStart_toStartOf="@+id/cardView10"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView10">
+
+                    <EditText
+                        android:id="@+id/edemailid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/email"
+                        android:drawablePadding="5dp"
+                        android:hint="Email"
+                        android:padding="12dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_color" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/edit_txt_bg"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="3dp"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView11"
+                    app:layout_constraintStart_toStartOf="@+id/cardView11"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView11">
+
+                    <EditText
+                        android:id="@+id/edpasswordid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/lock"
+                        android:drawablePadding="5dp"
+                        android:hint="Password"
+                        android:padding="12dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_color" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/edit_txt_bg"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="3dp"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView12"
+                    app:layout_constraintStart_toStartOf="@+id/cardView12"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView12">
+
+                    <EditText
+                        android:id="@+id/eddepartmentid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/baseline_library_books_24"
+                        android:drawablePadding="5dp"
+                        android:drawableTint="@color/green_color"
+                        android:hint="Department"
+                        android:padding="12dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_color" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/edit_txt_bg"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="3dp"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView13"
+                    app:layout_constraintStart_toStartOf="@+id/cardView13"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView13">
+
+                    <EditText
+                        android:id="@+id/edrollnumberid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/baseline_123_24"
+                        android:drawablePadding="5dp"
+                        android:drawableTint="@color/green_color"
+                        android:hint="Roll Number"
+                        android:padding="12dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_color" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnupdateprofileid"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="12dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/editextcustomshape"
+                    android:text="Update Profile"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView14"
+                    app:layout_constraintStart_toStartOf="@+id/cardView14"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView14" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

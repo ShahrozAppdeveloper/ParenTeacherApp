@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Events"
+        android:id="@+id/teacher_events"
+        android:icon="@drawable/calendar"/>
+
+    <item android:title="Student List"
+        android:id="@+id/teacher_studentList"
+        android:icon="@drawable/list"/>
+
+    <item android:title="Assignments"
+        android:id="@+id/teacher_assignment"
+        android:icon="@drawable/user"/>
+
+    <item android:title="Update Profile"
+        android:id="@+id/teacher_updateProfile"
+        android:icon="@drawable/profile"/>
+
+</menu>
